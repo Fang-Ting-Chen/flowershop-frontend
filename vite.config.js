@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      'vue': 'https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.esm-bundler.js'
+      'vue': 'vue/dist/vue.esm-bundler.js'
     }
   }
 })

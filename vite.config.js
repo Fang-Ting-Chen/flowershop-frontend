@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      'vue': 'https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.esm-bundler.js'
     }
   }
 })

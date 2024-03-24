@@ -1,5 +1,5 @@
 <template>
-   
+
     <div class="header-nav">
         
         <label for="switch" class="menulab" @click="toggleDropdown"><img src="/src/assets/images/navbarimg.png" class="phonenavbar" ></label><!--漢堡按鈕圖示-->

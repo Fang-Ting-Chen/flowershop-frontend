@@ -2,10 +2,10 @@
    
     <div class="header-nav">
         
-        <label for="switch" class="menulab" @click="toggleDropdown"><img src="../assets/images/navbarimg.png" class="phonenavbar" ></label><!--漢堡按鈕圖示-->
+        <label for="switch" class="menulab" @click="toggleDropdown"><img src="/src/assets/images/navbarimg.png" class="phonenavbar" ></label><!--漢堡按鈕圖示-->
         <input type="checkbox" id="switch" class="menuin" v-if="isDropdownVisible"><!--選單開關-->
         
-        <img src="../assets/images/logo.png" class="logo">
+        <img src="/src/assets/images/logo.png" class="logo">
         <ul class="navbar"> <!--選單內容-->
             <li class="dropdown ">
                 <a href="javascript:void(0)" class="dropbtn">會員中心</a>
@@ -31,9 +31,9 @@
     </div>
 
     <div class="image-slider">
-        <img src="../assets/images/imgslide1.jpg" alt="imgslide1">
-        <img src="../assets/images/imgslide2.jpg" alt="imgslide2">
-        <img src="../assets/images/imgslide3.jpg" alt="imgslide3">
+        <img src="/src/assets/images/imgslide1.jpg" alt="imgslide1">
+        <img src="/src/assets/images/imgslide2.jpg" alt="imgslide2">
+        <img src="/src/assets/images/imgslide3.jpg" alt="imgslide3">
 
     </div>
   

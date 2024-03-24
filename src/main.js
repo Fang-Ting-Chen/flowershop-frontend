@@ -14,7 +14,7 @@ import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import HomeView from './views/HomeView.vue'
 
-import './assets/css/common.css' //載入共用css檔案
+
 
 //創建 vue-router 的實例
 const router = createRouter({

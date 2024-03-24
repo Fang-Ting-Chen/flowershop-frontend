@@ -6,7 +6,7 @@ import ViteImages from 'vite-plugin-vue-images';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/flowershop-frontend.github.io/',
+  base: '/flowershop-frontend/',
   plugins: [
     vue(),
     ViteImages({

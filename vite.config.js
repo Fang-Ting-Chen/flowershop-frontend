@@ -17,7 +17,7 @@ const resolveAssetFileName = ({ name, ext, dir }) => {
 
 
 export default defineConfig({
-  base: '/flowershop-frontend/',
+  base: '/flowershop-frontend/dist/',
   plugins: [
     vue(),
     ViteImages({

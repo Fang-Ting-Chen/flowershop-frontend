@@ -4,19 +4,18 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import ViteImages from 'vite-plugin-vue-images';
 
-// 自定義函數用來處理資源文件的路徑
-/*
+/* 自定義函數用來處理資源文件的路徑
 const resolveAssetFileName = ({ name, ext, dir }) => {
-  if (dir && dir.startsWith('src/assets/')) {
-    return `src/assets/${name}${ext}`;
+  if (dir && dir.startsWith('src/assets/images')) {
+    return `src/assets/images/${name}${ext}`; // 输出到 images 目录下
+  } else if (dir && dir.startsWith('src/assets/css')) {
+    return `src/assets/css/${name}${ext}`; // 输出到 css 目录下
   }
-  return `src/assets/${name}${ext}`;
-};
+  return `assets/${name}${ext}`; // 默认输出到 assets 目录下
+}
 */
 
 
-
-// https://vitejs.dev/config/
 export default defineConfig({
   base: '/flowershop-frontend/',
   plugins: [
@@ -36,7 +35,7 @@ export default defineConfig({
       output: {
         entryFileNames: '[name].js',
         chunkFileNames: '[name].js',
-        assetFileNames: '[name].[ext]',
+        assetFileNames: 'src/assets/images/[name].[ext]',
       }
     }
   }

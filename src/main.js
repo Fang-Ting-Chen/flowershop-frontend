@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import { createRouter,createWebHistory } from 'vue-router'
 
 import App from './App.vue'
-import store from './store/index'
+import store from './store/index.js'
 
 import ProductsList from './views/ProductsList.vue'
 import CartView from './views/CartView.vue'

@@ -27,5 +27,14 @@ coverage
 *.sw?
 
 
+.vite
+node_modules/*
+public/*
+src/*
+.gitignore
+index.html
+package-lock.json
+package.json
+vite.config.js
 
 

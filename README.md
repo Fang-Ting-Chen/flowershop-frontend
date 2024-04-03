@@ -11,12 +11,12 @@ Demo
 ---
 * JavaScript  
 * Axios  
- : JavaScript庫，用於發送 http 請求
+   JavaScript庫，用於發送 http 請求
 * Vue.js
 * Vuex  
- : 用於實現不同組件間共享狀態的工具
+   用於實現不同組件間共享狀態的工具
 * Vue Router  
- : Vue.js 官方提供的前端路由管理器，提供了單頁面應用(SPA)
+   Vue.js 官方提供的前端路由管理器，提供了單頁面應用(SPA)
 * RWD
 
 專案功能
